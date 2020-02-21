@@ -1,5 +1,8 @@
 body {
     background-color: #ECEEF1;
+    font-family: Helvetica;
+    font-weight: 400;
+    
 }
 
 .container {
@@ -29,7 +32,7 @@ div button {
     border-radius: 5px;
 }
 
-header {
+.first-header {
     display: flex;
     justify-content: center;
 }
@@ -57,8 +60,55 @@ main {
     align-items: center;
 }
 
-
 div img {
     height:30px;
     width: 30px;
 }
+ .signup-form{
+     display: flex;
+     flex-direction: column;
+     
+ }
+ .form-header{
+     text-align:center;
+ }
+
+ .signup-form {
+     height: 668px;
+     width: 380px;
+     background-color: #FFF;
+     padding:40px;
+     border: 1px solid lightgrey;
+     border-radius: 5px;
+ }
+
+ form div{
+     /* margin-bottom: 20px; */
+     margin-top: 30px;
+ } 
+
+  
+ input[type=email], input[type=tel], input[type=password] {
+     width:100%;   
+     border: 1px solid lightgrey;  
+     border-radius: 5px;
+     height:30px;
+     margin-top:10px;
+ }
+
+ input[type=submit]{     
+     background-color: #0077C5;
+     color: white;
+     font-size:16px;
+     height: 44px;
+     width: 318px;
+     border-radius: 5px;
+     
+ }
+ .btn{
+     display: flex;
+     justify-content: center;    
+ }
+ form p{
+     font-size:12px;
+ }

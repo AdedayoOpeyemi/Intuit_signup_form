@@ -25,49 +25,57 @@
         </div>
 
 
-        <header>
+        <header class = "first-header">
             <div>
-                <img src="./images/Intuit_logo.png" class="intuit_logo">
+                <img src="./images/Intuit_logo.png" class="intuit_logo" alt="inTuiT"/>
             </div>
         </header>
 
         <main>
             <div class= "logos">
                 <div>
-                    <img src="/images/mint.png">
+                    <img src="/images/mint.png" alt="Mint">
                     <p>Mint</p>
                 </div>
                 <div>
-                    <img src="/images/qb.png" />
+                    <img src="/images/qb.png" alt = "qb" />
                     <p>quickbooks</p>
                 </div>
                 <div>
-                    <img src="/images/8Xi68p-0_400x400.jpg"/>
+                    <img src="/images/8Xi68p-0_400x400.jpg" alt="turbotax"/>
                     <p>turbotax</p>
                 </div>
 
             </div>
 
-            <div>
-                    <header>
+            <div class="signup-form">
+                    <header class = "form-header">
                         <h2>Create an Intuit account</h2>
                         <p>One account for everything Intuit, including Mint.</p>
                         <a href="#">Learn More</a>
                     </header>
 
                     <form action="#">
-                        <label for = "email">Email Address</label>
-                        <input type="email" id = "email" />
+                        <div>
+                            <label for = "email">Email Address</label>                        
+                            <input type="email" id = "email" />
+                        </div>
 
-                        <label for="number">Phone number(recomended)</label>
-                        <input type="number" id = "number" /> 
+                        <div>
+                            <label for="tel">Phone number(recomended)</label>
+                            <input type="tel" id = "tel" pattern="[0-9]{11}" />
+                        </div>                       
+
                         <p>Standard call, messaging or data rates may apply.</p> 
 
-                        <label for="password">Password</label>  
-                        <input type="password" id="password"/> 
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" id="password"/>
+                        </div> 
 
-                        <input type="submit" name="submit" value="Create Account"/>
-
+                        <div class = "btn">
+                            <input type="submit" name="submit" value="Create Account"/>
+                        </div>
                     </form>
 
                     <footer>
