@@ -152,3 +152,31 @@ footer {
   padding: 16px 40px 32px;
   margin: 32px -30px -30px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #505050;
+  font-weight: 400;
+}
+
+.legal li {
+  display: inline;
+  padding: 10px;
+}
+
+.legal li a {
+  text-decoration: none;
+  color: #505050;
+}
+
+.legal li a:hover {
+  text-decoration: underline;
+  color: #505050;
+}
