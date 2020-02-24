@@ -82,6 +82,14 @@ div img {
   text-align: center;
 }
 
+form p {
+  font-size: 12px;
+}
+
+.form-header p {
+  font-size: 14px;
+}
+
 input[type=email],
 input[type=tel],
 input[type=password] {
@@ -106,6 +114,10 @@ input[type=submit] {
   justify-content: center;
 }
 
-form p {
-  font-size: 12px;
+footer {
+  font-size: 14px;
+  color: grey;
+  font-style: italic;
+  text-align: center;
+  margin-top: 40px;
 }
