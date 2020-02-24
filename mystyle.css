@@ -2,7 +2,7 @@ body {
   background-color: #eceef1;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-weight: 400;
-  color:#4c4c4c;
+  color: #4c4c4c;
 }
 
 .container {
@@ -29,6 +29,9 @@ div button {
   height: 40px;
   width: 100px;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .first-header {
@@ -117,6 +120,22 @@ input[type=submit] {
   justify-content: center;
 }
 
+.btn button {
+  background-color: #0077c5;
+  color: white;
+  font-size: 16px;
+  height: 40px;
+  width: 80%;
+  border-radius: 5px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn span {
+  padding-left: 10px;
+}
+
 footer {
   font-size: 14px;
   color: grey;
@@ -125,11 +144,11 @@ footer {
   margin-top: 40px;
 }
 
-section {
+.sub-footer {
   text-align: center;
-  font-size: 10px; 
+  font-size: 10px;
   width: 378px;
-  background-color: #eceef1;   
-  padding: 16px 40px 28px;
+  background-color: #eceef1;
+  padding: 16px 40px 32px;
   margin: 32px -30px -30px;
 }
