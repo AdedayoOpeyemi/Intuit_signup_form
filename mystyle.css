@@ -1,0 +1,182 @@
+body {
+  background-color: #eceef1;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #4c4c4c;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-in {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.forgot {
+  padding-right: 30px;
+  font-size: 14px;
+}
+
+div button {
+  background-color: #0077c5;
+  color: white;
+  font-size: 16px;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-header {
+  display: flex;
+  justify-content: center;
+}
+
+.intuit_logo {
+  height: 50px;
+  width: 120px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+form div {
+  margin-top: 30px;
+}
+
+.logos div {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+}
+
+div img {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 668px;
+  width: 380px;
+  background-color: #fff;
+  padding: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.form-header {
+  text-align: center;
+}
+
+form p {
+  font-size: 12px;
+}
+
+.form-header p {
+  font-size: 14px;
+}
+
+input[type=email],
+input[type=tel],
+input[type=password] {
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+input[type=submit] {
+  background-color: #0077c5;
+  color: white;
+  font-size: 16px;
+  height: 44px;
+  width: 318px;
+  border-radius: 5px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn button {
+  background-color: #0077c5;
+  color: white;
+  font-size: 16px;
+  height: 40px;
+  width: 80%;
+  border-radius: 5px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn span {
+  padding-left: 10px;
+}
+
+footer {
+  font-size: 14px;
+  color: grey;
+  font-style: italic;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.sub-footer {
+  text-align: center;
+  font-size: 10px;
+  width: 378px;
+  background-color: #eceef1;
+  padding: 16px 40px 32px;
+  margin: 32px -30px -30px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #505050;
+  font-weight: 400;
+}
+
+.legal li {
+  display: inline;
+  padding: 10px;
+}
+
+.legal li a {
+  text-decoration: none;
+  color: #505050;
+}
+
+.legal li a:hover {
+  text-decoration: underline;
+  color: #505050;
+}
