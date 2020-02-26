@@ -5,7 +5,6 @@
 ![screenshot](app_screenshot.PNG)
 
 
-
 ## Built With
 
 - HTML
